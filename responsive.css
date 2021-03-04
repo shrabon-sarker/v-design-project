@@ -1,0 +1,15 @@
+@media all and (max-width: 768px) {
+	.about-text {
+		width: 100%;
+		margin: auto;
+	}
+	.col-1-3 {
+		width: 100%;
+	}
+	.contact-form input {
+		display: block;
+		margin: auto;
+		width: 100%;
+		margin: 20px;
+	}
+}

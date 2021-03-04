@@ -1,0 +1,281 @@
+body {
+	margin: 0;
+	font-family: Segoe UI;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.header-area {
+	background: #23232e;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.logo img {
+	width: 60px;
+	height: auto;
+}
+
+.head-text h2 {
+	font-size: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+.head-text {
+	margin: 80px 0 90px;
+}
+.head-text p {
+	font-size: 13px;
+	color: #ffffff;
+	
+}
+
+.arow-area a {
+	text-decoration: none;
+	color: #FFFFFF; 
+	
+}
+
+.arow-area a i {
+	font-size: 12px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+/* header area end */
+
+/* about area start */
+.about-area {
+	margin: 60px 0;
+	overflow: hidden;
+}
+.about-text {
+	width: 70%;
+	margin: auto;
+}
+.about-text p {
+	font-size: 16px;
+	color: #464b4f;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+.about-list h2 {
+	font-size: 40px;
+	color: #464b4f;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.col-1-3 {
+	width: 31%;
+	float:left;
+	margin: 0 1%;
+	overflow: hiddent;
+}
+
+.col-1-3 h3 {
+	font-size: 14px;
+	color: #464b4f;
+	text-transform: uppercase;
+}
+
+
+.col-1-3 p {
+	font-size: 13px;
+	color: #888a8b;
+}
+
+/* about area end */
+
+/* services area start */
+
+.services-area {
+	background: #23232e; 
+	text-align: center;
+	overflow: hidden;
+	padding: 50px 0 80px;
+}
+.work-head h2 {
+	font-size: 40px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	
+}
+.work-tap {
+	margin-bottom: 30px;
+}
+.work-tap ul {
+	list-style: none;
+	
+}
+
+.work-tap ul li {
+	display: inline;
+}
+
+.work-tap ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 8px 15px;
+	text-transform: capitalize;
+	font-size: 14px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	
+}
+.work-tap ul li:hover a {
+	border-bottom: 2px solid #7b77c9;
+}
+.work-tap ul li.current a{
+	border-bottom: 2px solid #7b77c9;
+}
+.work-service {
+	overflow: hidden;
+}
+.col-1-3 img {
+	width: 100%;
+}
+.work-service .col-1-3 {
+	margin-bottom: 33px;
+}
+.col-1-3 a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFFFFF;
+	
+}
+.col-1-3 h4 {
+	font-weight: 400;
+	margin: 10px 0 5px;
+	font-size: 15px;
+}
+.button {
+	margin-top: 25px;
+	text-align: center;
+}
+.button a {
+	text-decoration: none;
+	font-size: 15px;
+	background: #7b77c9;
+	padding: 10px 25px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	text-transform: capitalize;
+}
+
+/* services area end */
+
+
+/* photography area start */
+
+.photography-area {
+	margin-bottom: 70px;
+}
+
+.photography-head h2 {
+	font-size: 40px;
+	color: #464b4f;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 60px 0 20px;
+}
+
+.photography-head {
+	width: 70%;
+	margin: auto;
+}
+.photography-head p {
+	font-size: 16px;
+	color: #888a8b;
+	text-align: center;
+	line-height: 1.6em;
+}
+.photography-image {
+	overflow:hidden;
+}
+.photography-image .col-1-3 {
+	margin-bottom: 8px;
+}
+.photography .button{
+	margin-top: 50px;
+	
+}
+/* photography area end */
+
+/* contact area start */
+
+
+.contact-area {
+	background: #23232e; 
+	text-align: center;
+	overflow: hidden;
+	padding: 120px 0;
+
+}
+
+.contact-image img {
+	width: 50px;
+	height: auto;
+}
+
+.contact-image p {
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 30px 0;
+}
+
+.contact-form input {
+	border: none;
+	padding: 12px 15px;
+	font-size: 16px;
+	font-family: Segoe UI;
+	border-radius: 5px;
+}
+
+.contact-form input[type="text"] {
+	margin-right: 7px;
+}
+
+.contact-form input[type="submit"] {
+	background: #7b77c9;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+/* contact area end */
+
+/* footer area start */
+.footer-area {
+	text-align: center;
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+.socail ul {
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+.socail ul li {
+	display: inline;
+	padding: 0 13px;
+}
+.socail ul li a {
+	color: #dbdbdb;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+.copy-right p {
+	color: #7c7c7c;
+	text-decoration:none;
+}
